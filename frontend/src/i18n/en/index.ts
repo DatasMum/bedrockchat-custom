@@ -17,44 +17,15 @@ const translation = {
       userGroups: 'User Groups',
     },
     model: {
-      'claude-v4-opus': {
-        label: 'Claude 4 (Opus)',
-        description:
-          'Most powerful hybrid reasoning model for complex tasks, coding, and AI agents with 200K token context window.',
-      },
-      'claude-v4-sonnet': {
-        label: 'Claude 4 (Sonnet)',
-        description:
-          'Balanced hybrid reasoning model optimized for efficiency at scale with 200K token context window.',
-      },
       'claude-v3-haiku': {
         label: 'Claude 3 (Haiku)',
         description:
           'Previous version optimized for speed and compactness, providing near-instant responsiveness.',
       },
-      'claude-v3.5-sonnet': {
-        label: 'Claude 3.5 (Sonnet) v1',
-        description:
-          'An earlier version of Claude 3.5. Supports a wide range of tasks, but v2 offers improved accuracy.',
-      },
       'claude-v3.5-sonnet-v2': {
         label: 'Claude 3.5 (Sonnet) v2',
         description:
           'The latest version of Claude 3.5. An enhanced model that builds on v1 with higher accuracy and performance.',
-      },
-      'claude-v3.7-sonnet': {
-        label: 'Claude 3.7 Sonnet',
-        description:
-          'Hybrid reasoning model balancing quick responses and deep analytical capabilities.',
-      },
-      'claude-v3.5-haiku': {
-        label: 'Claude 3.5 (Haiku) v1',
-        description:
-          'The latest version, offering even faster responsiveness and improved capabilities over Haiku 3.',
-      },
-      'claude-v3-opus': {
-        label: 'Claude 3 (Opus)',
-        description: 'Powerful model for highly complex tasks.',
       },
       'mistral-7b-instruct': {
         label: 'Mistral 7B',
@@ -75,52 +46,6 @@ const translation = {
         label: 'Mistral Large2',
         description:
           'Advanced LLM supporting dozens of languages and 80+ coding languages, with best-in-class agentive capabilities including native function calling, JSON output, and reasoning.',
-      },
-      'amazon-nova-pro': {
-        label: 'Amazon Nova Pro',
-        description:
-          'A highly capable multimodal model with the best combination of accuracy, speed, and cost for a wide range of tasks.',
-      },
-      'amazon-nova-lite': {
-        label: 'Amazon Nova Lite',
-        description:
-          'A very low-cost multimodal model that is lightning fast for processing image, video, and text inputs.',
-      },
-      'amazon-nova-micro': {
-        label: 'Amazon Nova Micro',
-        description:
-          'A text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost.',
-      },
-      'deepseek-r1': {
-        label: 'DeepSeek R1',
-        description:
-          'State-of-the-art reasoning model optimized for general reasoning, math, science, and code generation. Supports English and Chinese languages.',
-      },
-      // Meta Llama 3 models
-      'llama3-3-70b-instruct': {
-        label: 'Meta Llama 3.3 70B Instruct',
-        description:
-          'Latest Llama 3 model offering performance on par with the 405B model at a lower cost with excellent reasoning and instruction-following capabilities.',
-      },
-      'llama3-2-1b-instruct': {
-        label: 'Meta Llama 3.2 1B Instruct',
-        description:
-          'Lightweight model optimized for edge devices with efficient on-device processing for personal information management and multilingual knowledge retrieval.',
-      },
-      'llama3-2-3b-instruct': {
-        label: 'Meta Llama 3.2 3B Instruct',
-        description:
-          'Compact model delivering text generation, summarization, and sentiment analysis with low latency, ideal for mobile AI applications.',
-      },
-      'llama3-2-11b-instruct': {
-        label: 'Meta Llama 3.2 11B Instruct',
-        description:
-          'Multimodal model excelling at image understanding and visual reasoning for image captioning, visual question answering, and document processing.',
-      },
-      'llama3-2-90b-instruct': {
-        label: 'Meta Llama 3.2 90B Instruct',
-        description:
-          'Large multimodal model with advanced image understanding and visual reasoning capabilities for sophisticated visual intelligence applications.',
       },
     },
     agent: {

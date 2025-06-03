@@ -542,30 +542,12 @@ def get_model_id(
 ) -> str:
     # Ref: https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids-arns.html
     base_model_ids = {
-        "claude-v4-opus": "anthropic.claude-opus-4-20250514-v1:0",
-        "claude-v4-sonnet": "anthropic.claude-sonnet-4-20250514-v1:0",
         "claude-v3-haiku": "anthropic.claude-3-haiku-20240307-v1:0",
-        "claude-v3-opus": "anthropic.claude-3-opus-20240229-v1:0",
-        "claude-v3.5-sonnet": "anthropic.claude-3-5-sonnet-20240620-v1:0",
         "claude-v3.5-sonnet-v2": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-        "claude-v3.7-sonnet": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-        "claude-v3.5-haiku": "anthropic.claude-3-5-haiku-20241022-v1:0",
         "mistral-7b-instruct": "mistral.mistral-7b-instruct-v0:2",
         "mixtral-8x7b-instruct": "mistral.mixtral-8x7b-instruct-v0:1",
         "mistral-large": "mistral.mistral-large-2402-v1:0",
         "mistral-large-2": "mistral.mistral-large-2407-v1:0",
-        # New Amazon Nova models
-        "amazon-nova-pro": "amazon.nova-pro-v1:0",
-        "amazon-nova-lite": "amazon.nova-lite-v1:0",
-        "amazon-nova-micro": "amazon.nova-micro-v1:0",
-        # DeepSeek models
-        "deepseek-r1": "deepseek.r1-v1:0",
-        # Meta Llama 3 models
-        "llama3-3-70b-instruct": "meta.llama3-3-70b-instruct-v1:0",
-        "llama3-2-1b-instruct": "meta.llama3-2-1b-instruct-v1:0",
-        "llama3-2-3b-instruct": "meta.llama3-2-3b-instruct-v1:0",
-        "llama3-2-11b-instruct": "meta.llama3-2-11b-instruct-v1:0",
-        "llama3-2-90b-instruct": "meta.llama3-2-90b-instruct-v1:0",
     }
 
     # Made this list by scripts/cross_region_inference/get_supported_cross_region_inferences.py
