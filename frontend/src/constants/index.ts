@@ -71,13 +71,13 @@ export const PostStreamingStatus = {
 
 export const GUARDRAILS_FILTERS_THRESHOLD = {
   MAX: 3,
-  MIN: 1,
+  MIN: 2,
   STEP: 1,
 };
 
 export const GUARDRAILS_CONTECTUAL_GROUNDING_THRESHOLD = {
   MAX: 0.99,
-  MIN: 0,
+  MIN: 0.2,
   STEP: 0.01,
 };
 
